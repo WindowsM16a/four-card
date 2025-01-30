@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* 200, 400, 600 */
+
+:root {
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: rgb(84, 158, 242);
+    --dark-blue: hsl(234, 12%, 34%);
+    --gray-blue: hsl(229, 6%, 66%);
+    --light-gray: hsl(0, 0%, 98%);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    font-size: 15px;
+    background-color: white;
+    color: var(--dark-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    position: relative;
+    padding-bottom: 4rem;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 32rem;
+    text-align: center;
+}
+
+.heading h1 {
+    font-weight: 300;
+    color: var(--gray-blue);
+}
+
+.heading h2 {
+    font-weight: 600;
+}
+
+.heading p {
+    font-weight: 400;
+    color: var(--gray-blue);
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.cards div {
+    background-color: white;
+    border-radius: 0.8rem;
+    padding: 1.5rem;
+    box-shadow: 0 0 10px rgba(84, 158, 242, 0.1);
+}
+
+.attribution {
+    position: absolute;
+    left: 0;
+    bottom: 1rem;
+    width: 100%;
+    text-align: center;
+    font-size: 11px;
+}
+
+/* mobile: 375px, desktop: 1440px */
+@media (min-width: 1440px) {}
