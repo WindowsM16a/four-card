@@ -45,6 +45,13 @@ body {
     width: 100%;
     max-width: 500px;
     text-align: center;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+.heading>* {
+    margin: 0;
+    margin-bottom: 0.2rem;
 }
 
 .heading h1 {
@@ -52,12 +59,12 @@ body {
     color: var(--gray-blue);
 }
 
-.heading h2 {
-    font-size: 2rem;
+.heading-subheading {
+    font-size: clamp(1.7rem, 2vw, 2rem);
     font-weight: 600;
 }
 
-.heading p {
+.heading-paragraph {
     font-weight: 400;
     color: var(--gray-blue);
 }
@@ -72,7 +79,7 @@ body {
     background-color: white;
     border-radius: 0.8rem;
     padding: 1.5rem;
-    box-shadow: 0 0 10px rgba(84, 158, 242, 0.1);
+    box-shadow: 0 5px 10px rgba(78, 121, 170, 0.048), -2px 0 10px rgba(49, 97, 151, 0.1);
 }
 
 .attribution {
