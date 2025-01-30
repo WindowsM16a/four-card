@@ -32,10 +32,8 @@ body {
     justify-content: center;
     padding: 3rem 1.5rem;
     position: relative;
-    padding-bottom: 4rem;
     width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 75rem;
     box-sizing: border-box;
 }
 
