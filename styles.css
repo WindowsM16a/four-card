@@ -2,13 +2,13 @@
 /* 200, 400, 600 */
 
 :root {
-    --red: hsl(0, 78%, 62%);
-    --cyan: hsl(180, 62%, 55%);
+    --red: rgb(234, 83, 83);
+    --cyan: rgb(69, 211, 211);
     --orange: hsl(34, 97%, 64%);
     --blue: rgb(84, 158, 242);
-    --dark-blue: hsl(234, 12%, 34%);
-    --gray-blue: hsl(229, 6%, 66%);
-    --light-gray: hsl(0, 0%, 98%);
+    --dark-blue: rgb(76, 78, 97);
+    --gray-blue: rgb(163, 165, 174);
+    --light-gray: rgb(250, 250, 250);
 }
 
 body {
@@ -30,7 +30,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 3rem 1.5rem;
+    padding: 1.5rem;
     position: relative;
     width: 100%;
     max-width: 75rem;
@@ -85,13 +85,23 @@ body {
     background-color: white;
     border-radius: 0.8rem;
     padding: 1.5rem;
-    box-shadow: 0 5px 10px rgba(78, 121, 170, 0.048), -2px 0 10px rgba(49, 97, 151, 0.1);
+    box-shadow: 0 5px 10px rgba(78, 121, 170, 0.15), -1px 0 10px rgba(49, 97, 151, 0.1);
+}
+
+.card p {
+    color: var(--gray-blue);
 }
 
 .card img {
     align-self: flex-end;
     padding-right: 1rem;
     width: 64px;
+    margin: 0;
+}
+
+.card>* {
+    margin: 0;
+    margin-bottom: 0.7rem;
 }
 
 .middle {
@@ -102,13 +112,32 @@ body {
     gap: 1.5rem;
 }
 
+.cards-supervisor {
+    border-top: 4px solid var(--cyan);
+}
+
+.cards-team-builder {
+    border-top: 4px solid var(--red);
+}
+
+.cards-karma {
+    border-top: 4px solid var(--orange);
+}
+
+.cards-calculator {
+    border-top: 4px solid var(--blue);
+}
+
 .attribution {
-    position: absolute;
-    left: 0;
-    bottom: 1rem;
     width: 100%;
     text-align: center;
     font-size: 11px;
+    margin: 0;
+    margin-top: 1.1rem;
+}
+
+.attribution p {
+    margin: 0;
 }
 
 /* mobile: 375px, desktop: 1440px */
