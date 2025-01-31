@@ -70,6 +70,10 @@ body {
     color: var(--gray-blue);
 }
 
+.heading-paragraph {
+    margin-top: 1rem;
+}
+
 .cards {
     display: flex;
     flex-direction: column;
