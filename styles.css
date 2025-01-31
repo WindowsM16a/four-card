@@ -83,7 +83,7 @@ body {
     flex-direction: column;
     width: 80%;
     background-color: white;
-    border-radius: 0.8rem;
+    border-radius: 0.3rem;
     padding: 1.5rem;
     box-shadow: 0 5px 10px rgba(78, 121, 170, 0.15), -1px 0 10px rgba(49, 97, 151, 0.1);
 }
@@ -165,5 +165,7 @@ body {
         display: flex;
         flex-direction: column;
         gap: 1.5rem;
+        width: 100%;
+        padding: 1.5rem;
     }
 }
