@@ -94,6 +94,7 @@ body {
 
 .card img {
     align-self: flex-end;
+    padding-top: 1.5rem;
     padding-right: 1rem;
     width: 64px;
     margin: 0;
